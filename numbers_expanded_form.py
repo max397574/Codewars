@@ -1,3 +1,4 @@
+#https://www.codewars.com/kata/5842df8ccbd22792a4000245
 import math
 def expanded_form(num):
     if str(num%10)!='0':
