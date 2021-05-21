@@ -1,3 +1,4 @@
+#https://www.codewars.com/kata/585d7d5adb20cf33cb000235
 def countx(x, arr):
     counter=0
     for ele in arr:
