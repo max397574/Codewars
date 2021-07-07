@@ -1,5 +1,5 @@
 #https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/python
-def format_duration(seconds):
+def format_duration(seconds: int)->str:
     if seconds==0:
         return "now"
     time_dictionary = {
@@ -35,3 +35,4 @@ def format_duration(seconds):
         return (", ".join(res[:-1]) + ' and ' + res[-1])
     else:
         return res[0]
+print(format_duration(213))
