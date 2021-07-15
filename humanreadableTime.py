@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/52685f7382004e774f0001f7/train/python
-def make_readable(seconds):
+def make_readable(seconds:int)->str:
     hours=0
     minutes=0
     while seconds>=3600:
