@@ -3,7 +3,7 @@ def SieveOfEratosthenes(n):
     prime = [True for i in range(n+1)]
     p = 2
     while(p * p <= n):
-        if (prime[p] == True):
+        if (prime[p] is True):
             for i in range(p * p, n + 1, p):
                 prime[i] = False
         p += 1
@@ -16,7 +16,7 @@ def SieveOfEratosthenes(n):
 primes = SieveOfEratosthenes(10000)
 def total(arr):
     sum=0
-    for i in range(len(arr)):
+    for i, item in enumerate(arr):
         if i in primes:
-            sum+=arr[i]
+            sum+=item
     return sum

@@ -8,4 +8,4 @@ def make_readable(seconds:int)->str:
     while seconds>=60:
         seconds-=60
         minutes+=1
-    return("%02d"":""%02d"":""%02d" % (hours, minutes, seconds))
+    return "%02d"":""%02d"":""%02d" % (hours, minutes, seconds)

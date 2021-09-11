@@ -5,5 +5,4 @@ def middle_permutation(string):
     permutation.sort()
     if len(permutation)%2==0:
         return permutation[int(len(permutation)/2-1)]
-    else:
-        return permutation[int(len(permutation)//2)]
+    return permutation[int(len(permutation)//2)]

@@ -7,6 +7,4 @@ def divisors(integer):
             divisor.append(i)
     if len(divisor)==0:
         return f'{integer} is prime'
-    else:
-        return divisor
-a
+    return divisor
