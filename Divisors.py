@@ -9,4 +9,3 @@ def divisors(integer):
         return f'{integer} is prime'
     else:
         return divisor
-a
