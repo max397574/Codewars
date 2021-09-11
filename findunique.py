@@ -7,7 +7,7 @@ def countx(x, arr):
     return counter
 def find_uniq(arr):
     for x in arr:
-        if (countx(x, arr)>1):
+        if countx(x, arr)>1:
             for element in arr:
-                if (element!=x):
+                if element!=x:
                     return element
