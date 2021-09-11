@@ -6,5 +6,4 @@ def narcissistic(value):
         total+=pow(int(num),len(str_value))
     if total == value:
         return True
-    else:
-        return False
+    return False
