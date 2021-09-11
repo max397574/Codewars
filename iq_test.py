@@ -9,11 +9,11 @@ def iq_test(numbers):
         else:
             even+=1
     if odd==1:
-        for i in range(len(numbers)):
-            if int(numbers[i])%2==1:
+        for i, item in enumerate(numbers):
+            if int(item)%2==1:
                 position=i+1
     else:
-        for i in range(len(numbers)):
-            if int(numbers[i])%2==0:
+        for i, item in enumerate(numbers):
+            if int(item)%2==0:
                 position=i+1
     return position

@@ -16,7 +16,7 @@ def SieveOfEratosthenes(n):
 primes = SieveOfEratosthenes(10000)
 def total(arr):
     sum=0
-    for i in range(len(arr)):
+    for i, item in enumerate(arr):
         if i in primes:
-            sum+=arr[i]
+            sum+=item
     return sum
