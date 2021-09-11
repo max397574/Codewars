@@ -33,6 +33,5 @@ def format_duration(seconds: int)->str:
                 res.append(f'{time_dictionary[duration]} {duration}')
     if len(res) > 1:
         return ", ".join(res[:-1]) + ' and ' + res[-1]
-    else:
-        return res[0]
+    return res[0]
 print(format_duration(213))
